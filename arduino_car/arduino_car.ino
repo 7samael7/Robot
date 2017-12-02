@@ -23,6 +23,7 @@ void setup()
 
 void loop() 
 {
+  /*
   servo__Turn(SERVO_POSITION_STRAIGHT);
   delay(400);
   servo__Turn(SERVO_POSITION_RIGHT);
@@ -33,5 +34,6 @@ void loop()
   delay(400);
   servo__Turn(SERVO_POSITION_ALMOST_LEFT);
   delay(400);
+  */
 }
 
