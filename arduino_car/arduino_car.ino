@@ -12,7 +12,7 @@ void setup()
   pinMode( echoPin, INPUT );
   
   pinMode( redLEDDiodPin, OUTPUT );
-  pinMode( greenLEDDionPin, OUTPUT );
+  pinMode( greenLEDDiodPin, OUTPUT );
   
   pinMode( rightWheelSpeedPin, OUTPUT );
   pinMode( rightWheelDirectionPin, OUTPUT );
@@ -24,7 +24,7 @@ void setup()
 
 void loop() 
 {
-
+  /*
   servo__Turn(SERVO_POSITION_STRAIGHT);
   sensorSensing();
   delay(400);
@@ -40,6 +40,6 @@ void loop()
   servo__Turn(SERVO_POSITION_ALMOST_LEFT);
   sensorSensing();
   delay(400);
-
+  */
 }
 

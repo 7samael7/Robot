@@ -6,7 +6,7 @@
 
 	// LED diods pins
 		#define redLEDDiodPin 	2
-		#define greenLEDDionPin 	3
+		#define greenLEDDiodPin 	3
 
 	// Wheels pins
 		#define rightWheelSpeedPin 		10
