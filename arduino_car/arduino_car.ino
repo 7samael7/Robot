@@ -3,6 +3,7 @@
 #include "hal/motor.h"
 #include "hal/servo.h"
 #include "hal/sensor.h"
+#include "hal/led.h"
 
 void setup() 
 {
@@ -41,5 +42,9 @@ void loop()
   sensorSensing();
   delay(400);
   */
+  greenLed();
+  delay(500);
+  redLed();
+  delay(500);
 }
 
