@@ -2,6 +2,7 @@
 
 #include "hal/motor.h"
 #include "hal/servo.h"
+#include "hal/sensor.h"
 
 void setup() 
 {
@@ -23,17 +24,22 @@ void setup()
 
 void loop() 
 {
-  /*
+
   servo__Turn(SERVO_POSITION_STRAIGHT);
+  sensorSensing();
   delay(400);
   servo__Turn(SERVO_POSITION_RIGHT);
+  sensorSensing();
   delay(400);
   servo__Turn(SERVO_POSITION_ALMOST_RIGHT);
+  sensorSensing();
   delay(400);
   servo__Turn(SERVO_POSITION_LEFT);
+  sensorSensing();
   delay(400);
   servo__Turn(SERVO_POSITION_ALMOST_LEFT);
+  sensorSensing();
   delay(400);
-  */
+
 }
 

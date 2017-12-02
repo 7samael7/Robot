@@ -1,8 +1,8 @@
 // --- PINS ---
 
 	// Ultrasound sensor pins
-		#define triggerPin 	5
- 		#define echoPin 	6
+		#define triggerPin 	6
+ 		#define echoPin 	5
 
 	// LED diods pins
 		#define redLEDDiodPin 	2
